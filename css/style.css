@@ -1,0 +1,252 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*********debut header et nav********/
+header{
+    background-image: url(../images/background.jpg);
+    overflow: hidden;
+}
+
+
+h1{
+    font-size: 30px;
+}
+h1 span{
+    color: #ea9f05;
+}
+
+#header{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+.logo, .nav, .headerText, .navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+header p{
+    position: relative;
+    right: -330px;
+}
+.nav{
+    flex-direction: column;
+    font-size: 20px;
+}
+
+
+.nav nav a{
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li{
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    margin-right: 50px;
+}
+/********fin de header et nav*********/
+/********fin de main et la banniere*********/
+
+main{
+    background-color: rgb(20, 21, 22);
+    overflow: hidden;
+}
+.banner img{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 25px;
+
+}
+/*********fin de banniere****/
+/*********debut de la section article****/
+#article{
+    display: flex;
+    background-color: whitesmoke;
+    margin-left: 25%;
+    margin-right: 19.7%;
+    justify-content: space-evenly;
+}
+
+
+/*gant haut gauche et bas gauche desolé pour les nom de class je me suis un peut perdu*/
+.promoHD, .promoHG{
+    border :1px solid black;
+    background-color: black;
+    color: #ea9f05;
+    border-radius: 1rem;
+    width: 80px;
+    height: 40px;
+    position: relative;
+    top: -356px;
+    right:-314px;
+    text-align: center;
+}
+
+.promoHD p, .promoHG p, .promoBD p, .promoBG p{
+    font-size: 2em;
+    position: relative;
+    top: -31px;
+}
+
+.txtHD, .txtHG{
+    position: relative;
+    top: -100px;
+    left: 45px;
+    height: 250px;
+    width: 300px;
+    font-size: 14px;
+}
+
+.prixHD, .prixHG {
+    position: relative;
+    top: -220px;
+    left: 220px;
+    font-size: 30px;
+}
+
+.prixHD span, .prixHG span{
+    color:#ea9f05;
+}
+button{
+   background-color: black;
+    color: white; 
+    height: 40px;
+    width: 200px;
+    border: none;
+}
+.buttonHD, .buttonHG{ 
+    position: relative;
+    top: -255px; 
+}
+
+/*gant Haut doite et bas droite*/
+.promoBD , .promoBG{
+    border :1px solid black;
+    background-color: black;
+    color: #ea9f05;
+    border-radius: 1rem;
+    width: 80px;
+    height: 40px;
+    position: relative;
+    top: -356px;
+    right:-314px;
+    text-align: center;
+}
+
+.txtBG, .txtBD{
+    position: relative;
+    top: -100px;
+    left: 45px;
+    height: 250px;
+    width: 300px;
+    font-size: 14px;
+}
+
+.prixBG, .prixBD{
+    position: relative;
+    top: -220px;
+    left: 220px;
+    font-size: 30px;
+}
+
+.prixBD span, .prixBG span{
+    color:#ea9f05;
+}
+
+.buttonBD, .buttonBG{ 
+    position: relative;
+    top: -255px; 
+}
+
+.gantsHaut img, .gantsBas img{
+    padding-top: 25px;
+}
+
+/*fin de gantsHaut / gantsBas et de main*/
+/*debut du footer et contact*/
+div ul li{
+    display: inline-block;
+    position: relative;
+    color: grey;
+}
+div a{
+    text-decoration: none;
+    color: grey;
+    
+}
+
+.contact{
+    display: inline-block;
+    border: 1px solid white;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    position: relative;
+    left: 700px;
+    bottom: 25px;
+    width: 500px;
+    height: 60px;
+    text-align: center;
+    font-size: 20px;
+}
+.puce{
+    background-color: lightgrey;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+/*fin de contact*/
+
+footer{
+    background-color: rgb(37, 35, 35);
+}
+/* Debut les icone et le texte dans le footer*/
+.footer{
+    display: flex;
+    padding-top: 50px;
+    padding-right : 20%;
+    padding-left:20% ;
+}
+
+.txtFooter{
+    color: #fff;
+}
+/* Debut les icone et le texte dans le footer*/
+.barre{
+    width: 1125px;
+    height: 5px;
+    background-color: gray;
+    position: relative;
+    left: 375px;
+}
+/* et enfin la partie resaux social*/
+.resaux{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.iconResaux{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left:40%;
+    margin-right:40%
+}
+.txtResaux{
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+    color: white;
+}
